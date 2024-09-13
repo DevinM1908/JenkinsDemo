@@ -9,6 +9,7 @@ pipeline {
                 script {
                     def test = (2 + 1 > 5) ? 'cool' : 'not cool'
                     echo test
+                    echo Hi
                 }
             }
         }
